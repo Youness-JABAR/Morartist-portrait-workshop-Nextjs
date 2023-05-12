@@ -37,7 +37,7 @@ export default function Home() {
 
 
   const [activeCatalogSection, setActiveCatalogSection] =
-    useState("photo-canvas");
+    useState<string>("photo-canvas");
 
   const handleCatalogSectionClick = (sectionId: string) => {
     setActiveCatalogSection(sectionId);
